@@ -17,12 +17,6 @@ public class Point {
 	
 	public Point() {
 	}
-	
-	@Override
-	public String toString() {
-		return "Point [longitude=" + longitude + ", latitude=" + latitude + ", timestamp=" + timestamp + ", speed="
-				+ speed + "]";
-	}
 
 	public double getLongitude() {
 		return longitude;

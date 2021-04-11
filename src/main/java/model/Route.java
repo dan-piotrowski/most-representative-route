@@ -32,7 +32,7 @@ public class Route {
 	@Override
 	public String toString() {
 		return "Route [id=" + id + ", fromSeq=" + fromSeq + ", toSeq=" + toSeq + ", fromPort=" + fromPort + ", toPort="
-				+ toPort + ", legDuration=" + legDuration + ", count=" + count + ", points=" + points + "]";
+				+ toPort + ", legDuration=" + legDuration + ", count=" + count + "]";
 	}
 
 	public String getId() {
